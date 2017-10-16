@@ -1,3 +1,4 @@
+git clone https://github.com/google/googletest
 cd googletest/googletest/build
 rm -f CMakeCache.txt
 make clean
