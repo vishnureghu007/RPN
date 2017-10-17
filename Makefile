@@ -12,7 +12,7 @@ OBJS = $(BIN)/RPNCalculator.o \
 
 LIBS = -pthread $(BIN)/libgtest.a
 
-CPPFLAGS = -std=c++14 -pthread
+CPPFLAGS = -std=c++14 -pthread -fprofile-arcs -ftest-coverage
 
 INC = -I googletest \
       -I googletest/googletest/include \
